@@ -33,6 +33,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "20.9.0",
     "dotenv": "^16.0.3",
+    "expect": "^29.7.0",
     "mocha": "^10.2.0",
     "typescript": "5.2.2"
   }
