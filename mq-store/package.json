@@ -1,0 +1,39 @@
+{
+  "name": "@gonzalomelov/mq-store",
+  "version": "0.0.2",
+  "description": "MQ based storage for squid mappings",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "src",
+    "!src/test"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "test": "npx mocha lib/test/*.test.js --exit --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalomelov/squid-mq-store.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gonzalomelov/squid-mq-store/issues"
+  },
+  "homepage": "https://github.com/gonzalomelov/squid-mq-store#readme",
+  "peerDependencies": {
+    "redis": "^4.7.0",
+    "@subsquid/util-internal-processor-tools": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.9.0",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "typescript": "5.2.2"
+  }
+}
