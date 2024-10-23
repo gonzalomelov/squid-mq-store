@@ -1,6 +1,6 @@
 {
   "name": "@gonzalomelov/mq-store",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MQ based storage for squid mappings",
   "publishConfig": {
     "access": "public"
